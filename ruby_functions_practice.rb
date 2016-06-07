@@ -10,3 +10,14 @@ def subtract(first_number, second_number)
   return first_number - second_number
 end
 
+def multiply(first_number, second_number)
+  return first_number * second_number
+end
+
+def divide(first_number, second_number)
+  return first_number / second_number
+end
+
+def length_of_string(length_of_string)
+  return length_of_string
+end
