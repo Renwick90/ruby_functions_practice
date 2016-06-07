@@ -59,8 +59,6 @@ def number_to_short_month_name(number_month)
 end
 
 
-
-
 def volume_of_cube(cube)
 puts "length?" 
 length = gets.chomp
