@@ -67,5 +67,14 @@ end
 
 
 
+def Sphere(radius)
+  puts "radius?"
+  radius = gets.chomp
+  fraction = (4 / 3)
+  pi = 3.14159
+  volume = fraction * pi * (radius ** 3)
+  return volume.round(2)
+end
+
 
 
