@@ -43,3 +43,31 @@ def number_to_full_month_name(number_month)
    return "September"
   end
 end
+
+def number_to_short_month_name(number_month)
+  case number_month
+  when 1
+    return "Jan"
+
+  when 3 
+   return "Mar"
+  
+
+ when 9 
+   return "Sep"
+  end
+end
+
+
+
+
+def volume_of_cube(cube)
+puts "length?" 
+length = gets.chomp
+return length**3
+end
+
+
+
+
+
